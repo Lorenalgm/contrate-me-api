@@ -1,11 +1,11 @@
 
-const Companie = require('../models/Companie');
+const Company = require('../models/Company');
 
 module.exports = {
     async index(request, response) {
         let companies = [];
 
-        companies = await Companie.find();
+        companies = await Company.find();
      
         return response.json(companies);
     },
@@ -23,7 +23,7 @@ module.exports = {
             segmento
         } = request.body;
 
-        const company = await Companie.create({
+        const company = await Company.create({
             nome,
             razao_social,
             cnpj,
