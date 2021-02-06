@@ -12,19 +12,33 @@ module.exports = {
 
     async store(request, response){
         const {
-            desafio_id,
-            candidato_id,
+            desafioId,
+            candidatoId,
             status,
             nota,
-            link_github
+            linkGithub,
+            entrega,
+            boasPraticas,
+            documentacao,
+            codigoLimpo,
+            controleQualidade,
+            dataInicio,
+            dataFim
         } = request.body;
 
         const solution = await Solution.create({
-            desafio_id,
-            candidato_id,
+            desafioId,
+            candidatoId,
             status,
             nota,
-            link_github
+            linkGithub,
+            entrega,
+            boasPraticas,
+            documentacao,
+            codigoLimpo,
+            controleQualidade,
+            dataInicio,
+            dataFim
         });
 
         return response.json(solution);

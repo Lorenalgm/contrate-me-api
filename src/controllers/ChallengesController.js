@@ -14,15 +14,15 @@ module.exports = {
         const {
             nome,
             descricao,
-            link_externo,
-            empresa_id
+            linkExterno,
+            empresaId
         } = request.body;
 
         const challenge = await Challenge.create({
             nome,
             descricao,
-            link_externo,
-            empresa_id
+            linkExterno,
+            empresaId
         });
 
         return response.json(challenge);

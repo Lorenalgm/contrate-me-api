@@ -2,10 +2,10 @@ const mongoose = require('mongoose');
 
 const CompanySchema = new mongoose.Schema({
     nome: String,
-    razao_social: String,
+    razaoSocial: String,
     cnpj: String,
     estado: String,
-    quantidade_funcionarios: Number,
+    quantidadeFuncionarios: Number,
     site: String,
     telefone: String,
     email: String,

@@ -3,8 +3,8 @@ const mongoose = require('mongoose');
 const ChallengeSchema = new mongoose.Schema({
     nome: String,
     descricao: String,
-    link_externo: String,
-    empresa_id: {
+    linkExterno: String,
+    empresaId: {
         type: mongoose.Schema.Types.ObjectId,
         ref: 'Companies'
     },

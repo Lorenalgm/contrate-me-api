@@ -13,10 +13,10 @@ module.exports = {
     async store(request, response){
         const {
             nome,
-            razao_social,
+            razaoSocial,
             cnpj,
             estado,
-            quantidade_funcionarios,
+            quantidadeFuncionarios,
             site,
             telefone,
             email,
@@ -25,10 +25,10 @@ module.exports = {
 
         const company = await Company.create({
             nome,
-            razao_social,
+            razaoSocial,
             cnpj,
             estado,
-            quantidade_funcionarios,
+            quantidadeFuncionarios,
             site,
             telefone,
             email,

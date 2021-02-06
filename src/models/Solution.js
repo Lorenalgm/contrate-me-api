@@ -1,17 +1,24 @@
 const mongoose = require('mongoose');
 
 const SolutionSchema = new mongoose.Schema({
-    desafio_id: {
+    desafioId: {
         type: mongoose.Schema.Types.ObjectId,
         ref: 'Challenge'
     },
-    candidato_id: {
+    candidatoId: {
         type: mongoose.Schema.Types.ObjectId,
         ref: 'Candidate'
     },
     status: String,
     nota: Number,
-    link_github: String
+    entrega: Number,
+    boasPraticas: Number,
+    documentacao: Number,
+    codigoLimpo: Number,
+    controleQualidade: Number,
+    linkGithub: String,
+    dataInicio: Date,
+    dataFim: Date
 }, {
 	timestamps: true,
 });

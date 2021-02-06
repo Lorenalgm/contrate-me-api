@@ -13,27 +13,27 @@ module.exports = {
     async store(request, response){
         const {
             nome,
-            data_nascimento,
+            dataNascimento,
             email,
             telefone,
             estado,
-            nivel_formacao,
-            area_formacao,
-            area_atuacao,
-            area_interesse,
+            nivelFormacao,
+            areaFormacao,
+            areaAtuacao,
+            areaInteresse,
             tecnologias
         } = request.body;
 
         const candidate = await Candidate.create({
             nome,
-            data_nascimento,
+            dataNascimento,
             email,
             telefone,
             estado,
-            nivel_formacao,
-            area_formacao,
-            area_atuacao,
-            area_interesse,
+            nivelFormacao,
+            areaFormacao,
+            areaAtuacao,
+            areaInteresse,
             tecnologias
         });
 
