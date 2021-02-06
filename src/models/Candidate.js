@@ -10,7 +10,7 @@ const CandidateSchema = new mongoose.Schema({
     area_formacao: String,
     area_atuacao: String,
     area_interesse: String,
-    tecnologias: String
+    tecnologias: [String]
 }, {
 	timestamps: true,
 });
