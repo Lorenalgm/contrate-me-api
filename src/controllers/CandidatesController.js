@@ -1,5 +1,5 @@
 
-const User = require('../models/Candidate');
+const Candidate = require('../models/Candidate');
 
 module.exports = {
     async index(request, response) {

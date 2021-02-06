@@ -1,5 +1,5 @@
 
-const User = require('../models/Challenge');
+const Challenge = require('../models/Challenge');
 
 module.exports = {
     async index(request, response) {

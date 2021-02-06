@@ -1,5 +1,5 @@
 
-const User = require('../models/Companie');
+const Companie = require('../models/Companie');
 
 module.exports = {
     async index(request, response) {
