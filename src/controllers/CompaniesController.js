@@ -1,26 +1,40 @@
 
-const User = require('../models/User');
+const User = require('../models/Companie');
 
 module.exports = {
     async index(request, response) {
-        let users = [];
+        let companies = [];
 
-        users = await User.find();
+        companies = await Companie.find();
      
-        return response.json(users);
+        return response.json(companies);
     },
 
     async store(request, response){
         const {
             nome,
-            foto_url
+            razao_social,
+            cnpj,
+            estado,
+            quantidade_funcionarios,
+            site,
+            telefone,
+            email,
+            segmento
         } = request.body;
 
-        const user = await User.create({
+        const company = await Companie.create({
             nome,
-            foto_url
+            razao_social,
+            cnpj,
+            estado,
+            quantidade_funcionarios,
+            site,
+            telefone,
+            email,
+            segmento
         });
 
-        return response.json(user);
+        return response.json(company);
     },
 }
