@@ -7,19 +7,21 @@ Projeto desenvolvido durante o Hackathon <strong></Provi Hack> Woman</strong> �
 
 # Acesso Rápido
 
-  <a href="#instalação">Instalação</a> •
-  <a href="#desafio">Desafio</a> •
- <a href="#solução">Solução</a> •
- <a href="#tecnologias">Tecnologias</a> • <a href="#autoras">Autoras</a>
+  <a href="#instalação">Instalação</a> •<br>
+  <a href="#desafio">Desafio</a> •<br>
+ <a href="#solução">Solução</a> •<br>
+ <a href="#tecnologias">Tecnologias</a> •<br> <a href="#autoras">Autoras</a>
 
 # Instalação
 
 → npm install <br>
 → npm start
 
+
 # Desafio
 
 → Construir uma solução que use tecnologia para apoiar profissionais em início de carreira a conseguirem oportunidades de emprego
+
 
 # Solução
 
@@ -27,17 +29,19 @@ Projeto desenvolvido durante o Hackathon <strong></Provi Hack> Woman</strong> �
 
 ## Como?
 
-→ A empresa cadastra seus testes técnicos
-→ O candidato resolve os testes que desejar
-→ A equipe do <strong>contrate.me</strong> avalia o teste, e dá uma nota
-→ O candidato concorre à aparecer no ranking de notas
+→ A empresa cadastra seus testes técnicos<br>
+→ O candidato resolve os testes que desejar<br>
+→ A equipe do <strong>contrate.me</strong> avalia o teste, e dá uma nota<br>
+→ O candidato concorre à aparecer no ranking de notas<br>
 → A empresa tem acesso ao ranking, e pode entrar em contato com os devs mais qualificados da plataforma.
+
 
 # Tecnologias
 
 ![ReactJS](https://img.shields.io/badge/-React-52b7d3?style=flat&logo=react&logoColor=white)
 ![NodeJS](https://img.shields.io/badge/-NodeJS-339933?style=flat&logo=node-dot-js&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=flat&logo=mongodb&logoColor=white)
+
 
 # API
 
