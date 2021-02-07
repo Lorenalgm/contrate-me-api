@@ -15,6 +15,9 @@ module.exports = {
             nome,
             descricao,
             linkExterno,
+            area,
+            destino,
+            tecnologias,
             empresaId
         } = request.body;
 
@@ -22,6 +25,9 @@ module.exports = {
             nome,
             descricao,
             linkExterno,
+            area,
+            destino,
+            tecnologias,
             empresaId
         });
 
