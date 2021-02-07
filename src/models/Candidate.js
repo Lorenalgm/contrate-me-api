@@ -10,7 +10,9 @@ const CandidateSchema = new mongoose.Schema({
     areaFormacao: String,
     areaAtuacao: String,
     areaInteresse: String,
-    tecnologias: [String]
+    tecnologias: [String],
+    testesResolvidos: Number,
+    somaTotal: Number
 }, {
 	timestamps: true,
 });

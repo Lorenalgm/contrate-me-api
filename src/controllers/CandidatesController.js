@@ -21,7 +21,9 @@ module.exports = {
             areaFormacao,
             areaAtuacao,
             areaInteresse,
-            tecnologias
+            tecnologias,
+            testesResolvidos,
+            somaTotal
         } = request.body;
 
         const candidate = await Candidate.create({
@@ -34,7 +36,9 @@ module.exports = {
             areaFormacao,
             areaAtuacao,
             areaInteresse,
-            tecnologias
+            tecnologias,
+            testesResolvidos,
+            somaTotal
         });
 
         return response.json(candidate);
